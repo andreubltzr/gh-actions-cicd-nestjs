@@ -14,7 +14,7 @@ jobs:
           echo "Hola Github Actions!!!"
       - name: Date
         run: |
-          echo $NOW
+          echo ${{ github.event.head_commit.timestamp }}
       - name: ls -l command
         run: |
-          ls
+          ls -l
