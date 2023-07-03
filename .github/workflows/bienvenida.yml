@@ -16,3 +16,7 @@ jobs:
       - name: Date
         run: |
           echo $NOW
+    steps:
+      - name: ls -l command
+        run: |
+          ls -l
