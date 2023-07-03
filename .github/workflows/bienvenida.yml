@@ -12,11 +12,9 @@ jobs:
       - name: Saludar
         run: |
           echo "Hola Github Actions!!!"
-    steps:
       - name: Date
         run: |
           echo $NOW
-    steps:
       - name: ls -l command
         run: |
           ls -l
