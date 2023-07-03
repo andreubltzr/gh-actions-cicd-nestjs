@@ -17,4 +17,4 @@ jobs:
           echo $NOW
       - name: ls -l command
         run: |
-          ls -l
+          ls
